@@ -37,6 +37,8 @@ public class MainActivity extends AppCompatActivity {
         setViewPagerAction();
         //Set the log in status
         checkLogin();
+        //Set onclick event
+        onClickEvent();
     }
 
     /**
@@ -86,12 +88,18 @@ public class MainActivity extends AppCompatActivity {
     /**
      * Set button Login on click
      * */
-    private void onClickLogin(){
+    private void onClickEvent(){
         btnLogIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent logFunc = new Intent(MainActivity.this, Log_In.class);
                 startActivityForResult(logFunc, 1);
+            }
+        });
+        txtUserWelcome.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //Code to view user info
             }
         });
     }
@@ -116,6 +124,7 @@ public class MainActivity extends AppCompatActivity {
         txtUserWelcome = (TextView) findViewById(R.id.txtUserWelcome);
         txtUserWelcome.setFocusable(false);
         btnLogIn = (Button) findViewById(R.id.btnLogIn);
+
     }
 
     /**
@@ -155,13 +164,18 @@ public class MainActivity extends AppCompatActivity {
      */
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        if(resultCode==RESULT_OK){
+        //request code 1: Login
+        if(requestCode==1 && resultCode==RESULT_OK){
             //Return user name for welcome
             Bundle bundle = data.getExtras();
             String username = bundle.getString("USERNAME");
             loggedIn=true;
             txtUserWelcome.setText("Welcome "+username);
             checkLogin();
+        }else
+            //request code 2: view info
+        if(requestCode==2 && requestCode==RESULT_OK){
+            //Code to handle in case of rename user
         }
     }
 
@@ -184,7 +198,9 @@ public class MainActivity extends AppCompatActivity {
         MainActivity.loggedIn = loggedIn;
     }
 
-    //Class get viewpaper item click;
+    /**
+     * Class help on click on view paper
+     * */
     class TapGestureListener extends GestureDetector.SimpleOnGestureListener {
 
         @Override

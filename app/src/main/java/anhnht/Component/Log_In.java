@@ -1,5 +1,6 @@
 package anhnht.Component;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -26,6 +27,13 @@ public class Log_In extends AppCompatActivity {
         if(view == btnLogin){
             String email = txtEmail.getText().toString().trim();
             String pass = txtPass.getText().toString().trim();
+            if(email.isEmpty()){
+                setErrorText(txtEmail);
+                return;
+            }else if(pass.isEmpty()){
+                setErrorText(txtPass);
+                return;
+            }
             //Login function
 
             //If success return to main page with code RESULT_OK
@@ -40,7 +48,8 @@ public class Log_In extends AppCompatActivity {
             //Else
                 // txtEmail.setError
         }else if(view == txtRegister){
-            //New intent of regist page
+            Intent regist = new Intent(this, Register.class);
+            startActivity(regist);
         }
     }
 
@@ -49,5 +58,11 @@ public class Log_In extends AppCompatActivity {
         txtPass = (EditText) findViewById(R.id.txtLogPass);
         txtRegister = (TextView) findViewById(R.id.txtRegist);
         btnLogin = (Button) findViewById(R.id.btnLogIn);
+        txtEmail.requestFocus();
+    }
+
+    private void setErrorText(EditText text){
+        text.setError("This field can't be empty");
+        text.requestFocus();
     }
 }
