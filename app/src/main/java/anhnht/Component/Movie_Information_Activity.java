@@ -26,6 +26,8 @@ import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 
+import java.net.URL;
+
 public class Movie_Information_Activity extends AppCompatActivity {
 
     ImageView imageView;
@@ -57,7 +59,9 @@ public class Movie_Information_Activity extends AppCompatActivity {
                 String des = dataSnapshot.child("Film1").child("Description").getValue().toString();
                 movie_des.setText(des);
 
-                String url = dataSnapshot.child("Film1").child("Picture").child("image1").getValue().toString();
+                String url_image = dataSnapshot.child("Film1").child("Picture").child("image1").getValue().toString();
+                Url url = new URL();
+
                 Bitmap bmp = BitmapFactory.decodeStream(url.openConnection().getInputStream());
                 imageView.setImageBitmap(bmp);
 
