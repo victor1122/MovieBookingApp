@@ -18,7 +18,7 @@ public class Movie_Information_Activity extends AppCompatActivity {
     ImageView imageView;
     private TypedArray image;
     TextView movie_des, movieName;
-    Button btnTrailer;
+    Button btnTrailer, btnBooking;
 
 
     @Override
@@ -46,7 +46,15 @@ public class Movie_Information_Activity extends AppCompatActivity {
                 startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://"+url.trim())));
             }
         });
-
+        btnBooking = (Button) findViewById(R.id.btnBooking);
+        btnBooking.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent booking = new Intent(Movie_Information_Activity.this, Booking_Ticket.class);
+                booking.putExtra("Position", pos);
+                startActivity(booking);
+            }
+        });
 
     }
 }

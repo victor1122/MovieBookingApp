@@ -14,7 +14,7 @@
         android:layout_marginTop="38dp"
         android:text="Seat"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinner" />
+        app:layout_constraintTop_toBottomOf="@+id/spinTime" />
 
     <TextView
         android:id="@+id/textView10"
@@ -43,37 +43,51 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Spinner
-        android:id="@+id/spinner"
+        android:id="@+id/spinTime"
         android:layout_width="239dp"
         android:layout_height="44dp"
-        tools:layout_editor_absoluteX="129dp"
         android:layout_marginTop="16dp"
-        app:layout_constraintTop_toBottomOf="@+id/spinCinema" />
+        app:layout_constraintTop_toBottomOf="@+id/spinCinema"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/textView9"
+        android:layout_marginLeft="8dp" />
 
     <Spinner
-        android:id="@+id/spinner4"
+        android:id="@+id/spinSeat"
         android:layout_width="239dp"
         android:layout_height="44dp"
-        tools:layout_editor_absoluteX="129dp"
         android:layout_marginTop="11dp"
-        app:layout_constraintTop_toBottomOf="@+id/spinner" />
+        app:layout_constraintTop_toBottomOf="@+id/spinTime"
+        android:layout_marginRight="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/textView11"
+        android:layout_marginLeft="8dp" />
 
     <Spinner
         android:id="@+id/spinCinema"
         android:layout_width="239dp"
         android:layout_height="44dp"
-        tools:layout_editor_absoluteX="129dp"
-        android:layout_marginTop="21dp"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/textView10"
+        android:layout_marginLeft="8dp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnBookAction"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="148dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
         android:layout_marginTop="14dp"
-        app:layout_constraintTop_toBottomOf="@+id/spinner4" />
+        android:text="Book Ticket"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinSeat" />
 
     <TextView
         android:id="@+id/textView9"
@@ -87,10 +101,13 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="349dp"
+        android:layout_width="wrap_content"
         android:layout_height="221dp"
-        app:srcCompat="@drawable/cinema"
-        tools:layout_editor_absoluteX="18dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
         android:layout_marginTop="16dp"
-        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:srcCompat="@drawable/cinema" />
 </android.support.constraint.ConstraintLayout>
