@@ -22,7 +22,7 @@ public class Log_In extends AppCompatActivity {
         init();
     }
 
-    private void onClick(View view){
+    public void onClickAction(View view){
         if(view == btnLogin){
             String email = txtEmail.getText().toString().trim();
             String pass = txtPass.getText().toString().trim();
