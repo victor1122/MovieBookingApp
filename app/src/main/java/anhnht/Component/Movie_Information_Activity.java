@@ -42,7 +42,7 @@ public class Movie_Information_Activity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 String url = getResources().getStringArray(R.array.movie_trailer)[pos];
-                System.out.println(url);
+                //System.out.println(url);
                 startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://"+url.trim())));
             }
         });
