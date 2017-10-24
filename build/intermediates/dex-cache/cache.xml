@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\anhnh\.android\build-cache\6ab677aa5561b015de84e73ea615fb2ac559392c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="E:\Code\Android\MovieBookingApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_67e2f7d58c51107ff00feefee4164963f4c82905\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Code\Android\MovieBookingApp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b0c8ce13c7be41b3773fd21fd8e582f2bb3429ff">
+        <dex dex="E:\Code\Android\MovieBookingApp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_27a7d3c45c80c894cdea8413b09e47722dafc458\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\_IDE\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="E:\Code\Android\MovieBookingApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_709d87ad9dd258746b100d69933c35861a547ee1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Code\Android\MovieBookingApp\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="E:\Code\Android\MovieBookingApp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_fb40b321a1f815ea8e91e817647a89778138236d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\anhnh\.android\build-cache\977db9a05badfcebc7aa6c0f25ca2abd3d105fc1\output\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="E:\Code\Android\MovieBookingApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_99ba7c749de2ffc3a43f5cce3bf90d4109a83dda\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\anhnh\.android\build-cache\64c6f88cf0b0d8da8a23a2f6f418f6cceeffc7ff\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="E:\Code\Android\MovieBookingApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e4cce810ef87daa54f6793924d996a1cdc29473c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\anhnh\.android\build-cache\0cac6efc37862e65c3009f78ee2804e66fe83890\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="E:\Code\Android\MovieBookingApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1f6d85aced19cf2462794a0bab9c3135cb2f1fa2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\anhnh\.android\build-cache\b890292f210507f6ee597a7a5772e50b6a56591f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="E:\Code\Android\MovieBookingApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1d16ba9041698239666194e3e592df11982f08de\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\anhnh\.android\build-cache\2ab81bdefc4ac0ba4591a9691911814af920150b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="E:\Code\Android\MovieBookingApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9e58b4029f8e8df44cbc68023daf8743fbcdef53\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\anhnh\.android\build-cache\815c1ada6aae98e6071fd9c20c751fd5b7367f74\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="E:\Code\Android\MovieBookingApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6df3002c62d0becc6a59b261cd971e874c61d9ed\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\anhnh\.android\build-cache\3a9adb624ac387b40df39e8bcb468dafd35aa964\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="E:\Code\Android\MovieBookingApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e8e03931a10c8bec150567a8e3469271809fd75d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\anhnh\.android\build-cache\3a9adb624ac387b40df39e8bcb468dafd35aa964\output\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="E:\Code\Android\MovieBookingApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_b1fb17e89799d96e2d1082a9739cf50011c73c58\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\anhnh\.android\build-cache\6ab677aa5561b015de84e73ea615fb2ac559392c\output\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="E:\Code\Android\MovieBookingApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_42dfbcd411f6cd6c39504a209bd9704f0ae42c5a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\anhnh\.android\build-cache\3f2a180b78592e13c225042b0eb4ff6658ccb411\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="E:\Code\Android\MovieBookingApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a56b4c879f4f59eefe158b8956916c29961f01e0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\_IDE\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="E:\Code\Android\MovieBookingApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_dc79787813e9c0b2a61d08c174ef06c3ba4e66b1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\anhnh\.android\build-cache\977db9a05badfcebc7aa6c0f25ca2abd3d105fc1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="E:\Code\Android\MovieBookingApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_55bd195b69273180803e2dc4cac8bb90e88d7ce4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\anhnh\.android\build-cache\85b80c3433894cc292bc92f3a7829eeaca531d44\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="E:\Code\Android\MovieBookingApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c8009c170e4393954457f68514cc46b3aa230c93\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\anhnh\.android\build-cache\b890292f210507f6ee597a7a5772e50b6a56591f\output\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="E:\Code\Android\MovieBookingApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_b77ca90cf47305bc98ec04539de0469cbba0f567\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\anhnh\.android\build-cache\3f2a180b78592e13c225042b0eb4ff6658ccb411\output\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="E:\Code\Android\MovieBookingApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_45199656bfc72e48a5eb04ace13b7df2edbf0ac5\classes.dex" />
+    </item>
+
+</items>
