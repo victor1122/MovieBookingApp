@@ -30,7 +30,13 @@ public class Log_In extends AppCompatActivity {
 
             //If success return to main page with code RESULT_OK
                 //setResult(RESULT_OK);
-                //finish();
+                // set bundle to return username
+                //Bundle bundle = new Bundle();
+                // bundle.putString("USERNAME", USERNAME_OF_DB);
+    //            Intent intent = new Intent();
+    //            intent.putExtras(bundle);
+    //            setResult(Activity.RESULT_OK, intent);
+    //            finish();
             //Else
                 // txtEmail.setError
         }else if(view == txtRegister){
